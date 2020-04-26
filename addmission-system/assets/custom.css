@@ -1,0 +1,278 @@
+/* ------css-------- */
+
+#back_to_top span{
+	    /* border: 1px solid #8cb500; */
+    /* background: 0 0; */
+    /* -webkit-transition: all .2s ease 0s; */
+    /* text-decoration: none; */
+    /* font-size: 15px; */
+    /* /* padding: 11px; */ */
+    /* color: #8cb500; */
+    /* font-weight: 900; */
+    /* padding: 10px 15px 10px 15px; */
+	    /* border-radius: 5px; */
+    /* height: 45px; */
+    /* line-height: 45px; */
+    /* width: 45px; */
+}
+
+#back_to_top.on {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+    right: 25px;
+}
+#back_to_top {
+    color: #cdcdcd;
+    height: auto;
+    position: fixed;
+    bottom: 65px;
+    margin: 0;
+    z-index: 10000;
+    /* <!-- -webkit-transition: all .3s ease 0s; */
+    /* -->: ; */
+    /* -moz-transition: all .3s ease 0s; */
+    /* -o-transition: all .3s ease 0s; */
+    transition: all .3s ease 0s;
+    /* right: 25px; */
+    /* <!-- visibility: hidden; */
+    /* -->: ; */
+    /* <!-- -webkit-backface-visibility: hidden; */
+    /* -->: ; */
+}
+#back_to_top span {
+    border: 1px solid #8cb500;
+    background: 0 0;
+    -webkit-transition: all .2s ease 0s;
+    text-decoration: none;
+    font-size: 15px;
+    /* padding: 11px; */
+   color: #ff040d;
+    font-weight: 900;
+    padding: 10px 15px 10px 15px;
+}
+#back_to_top span {
+    background-color: rgba(0,10,0,0);
+        border-color: rgb(255, 0, 8);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+}
+
+
+body{
+	font-family:sans-serif;
+	margin:0px;
+}
+
+/* ------ header(sec_1) css-------- */
+.header_bg_color{
+	background-color: #d64d43;
+}
+.sec_1 {
+padding-top: 12px;
+    height: 111px;
+    
+}
+.sec_1 .navbar-default .navbar-nav>li>a:hover {
+    color: #3a2f2f;
+    background-color: transparent;
+    transition: 4s;
+}
+.sec_1 .navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sec_1 .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: bold;
+    line-height: 1.42857143;
+    color: white;
+    white-space: nowrap;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.sec_1 .hover_effect a:hover
+{
+	    background-color: #d64d43;
+    color: #904242;
+	transition:4s;
+
+}
+
+.font_color{
+	color: #884f4f;
+}
+.sec_1 img {
+       height: 90px;
+    width: 157px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+/* .navbar-default .navbar-nav>li>a:hover { */
+    /* color: #ea0909; */
+    /* background-color: transparent; */
+    /* transition: 5s; */
+/* } */
+/* a.nav-link.disabled:hover { */
+    /* color: #f80707!important; */
+    /* background-color: white; */
+    /* transition: 2s; */
+/* } { */
+        /* color: #ea0e0e !important; */
+    /* background-color: transparent; */
+	/* /* transition: 5s; */ */
+/* } */
+.navbar-default .navbar-nav>li>a {
+       color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+	padding-top: 14px;
+}
+
+.sec_1 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    /* color: #555; */
+    background-color: #8a3731;
+}
+
+/* ------ header(sec_1) css end-------- */
+
+
+
+/* ------ marquee css end-------- */
+
+.marquee_1 {
+	    color: white;
+    background-color: #8a3731;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 9px;
+
+}
+/* ------ marquee css end-------- */
+
+
+
+
+/* ------ section_2 css -------- */
+
+.sec_2 img{
+	height:400px;
+}
+
+.sec_2 .w3-section, .w3-code {
+    margin-top: 0 !important;
+    margin-bottom: 16px!important;
+    /* padding-top: 15px; */
+}
+.sec_2{
+	    background-color: #e0ded9;
+		padding-top: 15px;
+}
+
+
+/* ------ section_2 css end-------- 
+
+
+/* ------ paragraph css -------- */
+
+.paragraph_1 {
+	text-align: center;
+    font-size: 17px;
+    background-color: #e0ded9;
+    padding-top: 23px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+/* ------ paragraph css end-------- */
+
+/* ------ section_3 css -------- */
+
+.sec_3{
+	background-color: #8a3731;
+	padding-top: 30px;
+}
+.sec_3 .icon{
+	position: relative;
+    top: 9px;
+    font-size: 23px;
+}
+.sec_3 .fa-facebook-f:before, .fa-facebook:before {
+    content: "\f39e";
+}
+.sec_3 .span_icon{
+	display: inline-block;
+    color: white;
+    
+    width: 46px;
+    height: 43px;
+	    text-align: center;
+}
+.sec_3 .span_icon_fb{
+	background-color: #3b5998;
+	margin-left: 40px;
+}
+.sec_3 .span_icon_skype{
+	background-color: #00aced !important;
+
+}
+.sec_3 .span_icon_youtube{
+	background-color: #cc181e !important;
+
+}
+.sec_3 span a{
+	color:white;
+}
+.sec_3 a:hover {
+    color: #979ea5 !important;
+    text-decoration: underline;
+    text-decoration: none;
+    transition: 4s;
+}
+.sec_3 h3{
+	font-weight: bold;
+}
+.sec_3 ul a{
+	color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.sec_3 ul{
+	list-style: none;
+}
+.sec_3
+.fb_div{
+	background-color: #3b5998;
+    height: 69px;
+    width: 83px; 
+}
+.sec_3 h4
+{
+	
+   
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+/* ------ section_3 css end-------- */
+
+
